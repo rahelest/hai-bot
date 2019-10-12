@@ -620,6 +620,11 @@ has-values@^1.0.0:
     is-number "^3.0.0"
     kind-of "^4.0.0"
 
+he@1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/he/-/he-1.1.1.tgz#93410fd21b009735151f8868c2f271f3427e23fd"
+  integrity sha1-k0EP0hsAlzUVH4howvJx80J+I/0=
+
 iconv-lite@^0.4.4:
   version "0.4.24"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.24.tgz#2022b4b25fbddc21d2f524974a474aafe733908b"
@@ -1035,6 +1040,13 @@ node-fetch@2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz#e633456386d4aa55863f676a7ab0daa8fdecb0fd"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
+
+node-html-parser@^1.1.16:
+  version "1.1.16"
+  resolved "https://registry.yarnpkg.com/node-html-parser/-/node-html-parser-1.1.16.tgz#59f072bcabf1cf6e23f7878a76e0c3b81b9194fa"
+  integrity sha512-cfqTZIYDdp5cGh3NvCD5dcEDP7hfyni7WgyFacmDynLlIZaF3GVlRk8yMARhWp/PobWt1KaCV8VKdP5LKWiVbg==
+  dependencies:
+    he "1.1.1"
 
 node-pre-gyp@^0.12.0:
   version "0.12.0"
