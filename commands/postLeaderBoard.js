@@ -15,6 +15,7 @@ module.exports = async mainMessage => {
   const rows = table.querySelector("tbody");
   const teamRows = rows.childNodes.filter((row) => {
     return row.toString().includes("Elon's Musk")
+        || row.toString().includes("Uru ja CO")
         || row.toString().includes("Looda parimat 2019")
         || row.toString().includes("M-L");
   });
