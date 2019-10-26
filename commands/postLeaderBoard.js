@@ -14,7 +14,9 @@ module.exports = async mainMessage => {
   const table = parsed.querySelector(".data");
   const rows = table.querySelector("tbody");
   const teamRows = rows.childNodes.filter((row) => {
-    return row.toString().includes("Elon's Musk");
+    return row.toString().includes("Elon's Musk")
+        || row.toString().includes("Looda parimat 2019")
+        || row.toString().includes("M-L");
   });
 
 
@@ -25,5 +27,5 @@ module.exports = async mainMessage => {
 
   const data = stringNodes.join("\n");
 
-  mainMessage.reply(`Börsihai edetabel ${date}: \n${data}`);
+  mainMessage.reply(`Börsihai edetabel ${date} 7:00 <https://www.lhv.ee/et/hai#edetabel> \n${data}`);
 };
