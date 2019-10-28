@@ -3,7 +3,7 @@ const parser = require("node-html-parser");
 
 module.exports = async mainMessage => {
 
-  mainMessage.delete();
+  // mainMessage.delete();
 
   const date = new Date().toDateString();
 

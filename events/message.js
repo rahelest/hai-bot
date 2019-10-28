@@ -6,10 +6,12 @@ module.exports = (client, message) => {
   if (message.content.startsWith("!kick")) {
     return kick(message);
   }
-  if (message.content.startsWith("!clean")) {
+
+  if (message.content === "!clean") {
     return clean(message);
   }
-  if (message.content.startsWith("!hai")) {
+
+  if (message.content === "!hai") {
     return postLeaderBoard(message);
   }
 };
